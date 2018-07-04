@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="BR">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ecommerce Senac</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    
+    <head>
+        <h1 class="titulo">Ecommerce Senac</h1>
+    </head>
+    <!--calculadora-->
+    <!--somar-->
+    <section>
+        <h2>Soma</h2>
+        <input class="item" id="number1" type="number">
+        <span class="item">+</span>
+        <input class="item" id="number2" type="number">
+        
+        <button class="item" disabled id="botao-somar">=</button>
+        
+        <span id="resultado-soma" class="resultado"></span>
+    </section>
+
+    <!--subtrair-->
+    <section>
+            <h2>SUbtração</h2>
+            <input class="item" id="number1" type="number">
+            <span class="item">-</span>
+            <input class="item" id="number2" type="number">
+            
+            <button class="item" disabled id="botao-sub">=</button>
+            
+            <span id="resultado-sub" class="resultado"></span>
+        </section>
+    <footer>
+        Senac 2018
+    </footer>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
